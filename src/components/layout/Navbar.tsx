@@ -114,12 +114,12 @@ export default function Navbar() {
             <div className="relative w-8 h-8 group-hover:scale-105 transition-transform duration-300">
               <img
                 src="/images/logo.png"
-                alt="Sentra Agronilam Logo"
+                alt="Rumah Produksi Nilam Logo"
                 className="object-contain w-full h-full"
               />
             </div>
             <span className="font-serif text-lg md:text-xl font-bold tracking-wide text-brand-forest-green">
-              Sentra Agronilam
+              Rumah Produksi Nilam
             </span>
           </Link>
 
