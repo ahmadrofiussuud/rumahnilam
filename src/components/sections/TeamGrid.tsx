@@ -30,9 +30,17 @@ export default function TeamGrid() {
               className="border-brand-forest-green/5 hover:border-brand-gold/30 bg-white hover:-translate-y-2 hover:shadow-lg duration-300 flex flex-col justify-between"
             >
               <CardHeader className="text-center pb-2 flex flex-col items-center">
-                {/* Initials Placeholder Circle */}
-                <div className="w-24 h-24 rounded-full bg-brand-forest-green/10 border-2 border-brand-gold/20 flex items-center justify-center text-brand-forest-green text-3xl font-serif font-extrabold shadow-inner mb-4">
-                  {member.name[0]}
+                {/* Image or Initials Placeholder */}
+                <div className="w-24 h-24 rounded-full border-2 border-brand-gold/20 overflow-hidden shadow-inner mb-4 bg-brand-forest-green/10 flex items-center justify-center text-brand-forest-green text-3xl font-serif font-extrabold relative">
+                  {member.imageUrl ? (
+                    <img
+                      src={member.imageUrl}
+                      alt={member.name}
+                      className="w-full h-full object-cover"
+                    />
+                  ) : (
+                    <span>{member.name[0]}</span>
+                  )}
                 </div>
                 <CardTitle className="text-lg font-bold font-serif text-brand-forest-green">
                   {member.name}

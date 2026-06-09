@@ -6,20 +6,20 @@ export const TEAM: TeamMember[] = [
     name: "Alvina",
     role: "Direktur Utama & Riset Produk",
     faculty: "Agroekoteknologi",
-    imageUrl: "/images/team/alvina.png",
+    imageUrl: "/images/Team/Alvina.jpg",
   },
   {
     id: "fathan",
     name: "Fathan",
     role: "Manajer Operasional & Budidaya",
     faculty: "Agroekoteknologi",
-    imageUrl: "/images/team/fathan.png",
+    imageUrl: "/images/Team/Fathan.jpg",
   },
   {
     id: "rofi",
     name: "Rofi",
     role: "Manajer Marketing",
     faculty: "Agroekoteknologi",
-    imageUrl: "/images/team/rofi.png",
+    imageUrl: "/images/Team/Rofi.jpeg",
   },
 ];
