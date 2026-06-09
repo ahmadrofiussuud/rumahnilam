@@ -118,7 +118,7 @@ export default function Navbar() {
                 className="object-contain w-full h-full"
               />
             </div>
-            <span className="font-serif text-lg md:text-xl font-bold tracking-wide text-brand-forest-green">
+            <span className="font-serif text-xs sm:text-sm md:text-lg lg:text-xl font-bold tracking-wide text-brand-forest-green whitespace-nowrap">
               Rumah Produksi Nilam
             </span>
           </Link>
