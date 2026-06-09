@@ -36,7 +36,7 @@ export default function TeamGrid() {
                     <img
                       src={member.imageUrl}
                       alt={member.name}
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-cover object-top"
                     />
                   ) : (
                     <span>{member.name[0]}</span>
