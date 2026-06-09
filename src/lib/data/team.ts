@@ -22,18 +22,4 @@ export const TEAM: TeamMember[] = [
     faculty: "Agroekoteknologi",
     imageUrl: "/images/team/rofi.png",
   },
-  {
-    id: "dini",
-    name: "Dini",
-    role: "Manajer Keuangan",
-    faculty: "Agroekoteknologi",
-    imageUrl: "/images/team/dini.png",
-  },
-  {
-    id: "dinar",
-    name: "Dinar",
-    role: "Manajer QC & Distribusi",
-    faculty: "Agroekoteknologi",
-    imageUrl: "/images/team/dinar.png",
-  },
 ];
