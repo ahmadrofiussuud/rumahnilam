@@ -35,12 +35,12 @@ export default function Footer() {
               <div className="relative w-8 h-8 bg-brand-cream/10 p-1.5 rounded-brand-md">
                 <img
                   src="/images/logo.png"
-                  alt="Sentra Agronilam Logo"
+                  alt="Rumah Produksi Nilam Logo"
                   className="object-contain w-full h-full brightness-0 invert"
                 />
               </div>
               <span className="font-serif text-lg md:text-xl font-bold tracking-wide text-brand-cream">
-                Sentra Agronilam
+                Rumah Produksi Nilam
               </span>
             </div>
             <p className="text-xs sm:text-sm text-brand-cream/70 leading-relaxed max-w-sm">
@@ -48,10 +48,10 @@ export default function Footer() {
             </p>
             <div className="flex items-center gap-3 mt-2">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/rumahproduksinilamaceh/"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Sentra Agronilam Instagram"
+                aria-label="Rumah Produksi Nilam Instagram"
                 className="p-2 bg-brand-cream/5 hover:bg-brand-gold/20 hover:text-brand-cream rounded-full transition-all duration-300"
               >
                 <InstagramIcon />
@@ -126,7 +126,7 @@ export default function Footer() {
           <div className="flex items-center gap-2">
             <Sprout className="w-4 h-4 text-brand-gold" />
             <p className="text-xs text-brand-cream/60 text-center sm:text-left">
-              &copy; 2025 Sentra Agronilam. Didukung PMW Universitas Brawijaya.
+              &copy; 2025 Rumah Produksi Nilam. Didukung PMW Universitas Brawijaya.
             </p>
           </div>
 
