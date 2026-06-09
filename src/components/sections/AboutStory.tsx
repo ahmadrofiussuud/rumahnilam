@@ -29,7 +29,7 @@ export default function AboutStory() {
         {/* Narrative Description */}
         <div className="max-w-3xl mx-auto text-sm md:text-base leading-relaxed text-brand-forest-green/80 font-sans space-y-4 text-left md:text-center">
           <p>
-            Sentra Agronilam lahir sebagai langkah nyata hilirisasi riset wirausaha mahasiswa Fakultas Pertanian Universitas Brawijaya. Didukung penuh oleh program hibah PMW (Program Mahasiswa Wirausaha) UB, kami berkomitmen mengangkat kearifan botani lokal demi kesejahteraan petani nilam di Malang, Jawa Timur.
+            Rumah Produksi Nilam lahir sebagai langkah nyata hilirisasi riset wirausaha mahasiswa Fakultas Pertanian Universitas Brawijaya. Didukung penuh oleh program hibah PMW (Program Mahasiswa Wirausaha) UB, kami berkomitmen mengangkat kearifan botani lokal demi kesejahteraan petani nilam di Malang, Jawa Timur.
           </p>
           <p>
             Dengan memadukan ketelitian riset sains dan keandalan budidaya pertanian organik, kami menghadirkan produk aromaterapi, kosmetik, serta sabun mandi berkualitas tinggi. Kami meyakini bahwa perawatan tubuh yang premium sudah selayaknya aman, organik, dan berkelanjutan.

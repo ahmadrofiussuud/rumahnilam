@@ -52,7 +52,7 @@ export default function HeroSection() {
             variants={fadeUp}
             className="font-sans text-sm md:text-base lg:text-lg text-brand-forest-green/80 max-w-xl leading-relaxed"
           >
-            Sentra Agronilam menghadirkan rangkaian aromaterapi, kosmetik, dan sabun mandi premium dari distilasi minyak nilam varietas unggul Lhokseumawe.
+            Rumah Produksi Nilam menghadirkan rangkaian aromaterapi, kosmetik, dan sabun mandi premium dari distilasi minyak nilam varietas unggul Lhokseumawe.
           </motion.p>
 
           {/* Staggered CTAs */}

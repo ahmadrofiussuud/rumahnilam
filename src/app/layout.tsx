@@ -15,7 +15,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Sentra Agronilam | Premium Patchouli-derived Natural Products",
+  title: "Rumah Produksi Nilam | Premium Patchouli-derived Natural Products",
   description: "Produk aromaterapi, kosmetik, dan sabun alami berbasis minyak nilam varietas Lhokseumawe — dibudidaya dan diolah di Malang. Didukung oleh PMW Universitas Brawijaya.",
 };
 

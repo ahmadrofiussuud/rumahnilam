@@ -60,7 +60,7 @@ export default function Footer() {
                 href="https://tiktok.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Sentra Agronilam TikTok"
+                aria-label="Rumah Produksi Nilam TikTok"
                 className="p-2 bg-brand-cream/5 hover:bg-brand-gold/20 hover:text-brand-cream rounded-full transition-all duration-300"
               >
                 <TikTokIcon />
@@ -69,7 +69,7 @@ export default function Footer() {
                 href={whatsappUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Sentra Agronilam WhatsApp"
+                aria-label="Rumah Produksi Nilam WhatsApp"
                 className="p-2 bg-brand-cream/5 hover:bg-brand-gold/20 hover:text-brand-cream rounded-full transition-all duration-300"
               >
                 <MessageCircle className="w-5 h-5" />
