@@ -16,11 +16,11 @@ export const TEAM: TeamMember[] = [
     imageUrl: "/images/team/fathan.png",
   },
   {
-    id: "thalita",
-    name: "Thalita",
-    role: "Manajer Pemasaran & Humas",
+    id: "rofi",
+    name: "Rofi",
+    role: "Manajer Marketing",
     faculty: "Agroekoteknologi",
-    imageUrl: "/images/team/thalita.png",
+    imageUrl: "/images/team/rofi.png",
   },
   {
     id: "dini",
