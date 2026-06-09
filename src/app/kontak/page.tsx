@@ -23,7 +23,7 @@ export default function KontakPage() {
   };
 
   return (
-    <PageWrapper className="w-full max-w-7xl mx-auto px-4 sm:px-6 py-12">
+    <PageWrapper className="w-full max-w-7xl mx-auto px-4 sm:px-6 pt-24 sm:pt-28 pb-12">
       {/* Back link */}
       <div className="mb-8">
         <Link

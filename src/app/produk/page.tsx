@@ -13,7 +13,7 @@ function CatalogContent() {
   const categoryParam = searchParams.get("category") || "All";
 
   return (
-    <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 py-12">
+    <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 pt-24 sm:pt-28 pb-12">
       <div className="mb-10 text-center sm:text-left">
         <Link
           href="/"

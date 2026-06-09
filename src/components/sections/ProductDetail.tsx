@@ -56,23 +56,29 @@ export default function ProductDetail({ product }: ProductDetailProps) {
               </Badge>
             </div>
 
-            {/* Simulated Zoom on Hover */}
-            <div className="w-full h-full bg-brand-forest-green/5 flex items-center justify-center font-serif text-brand-forest-green/45 text-2xl font-bold transition-transform duration-500 group-hover:scale-105 select-none text-center p-6">
-              {product.name} (Tampilan Detail #{activeImageIdx + 1})
-            </div>
+            {/* Main Product Image with Zoom on Hover */}
+            <img
+              src={product.images[activeImageIdx]}
+              alt={`${product.name} - View ${activeImageIdx + 1}`}
+              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+            />
           </div>
 
           {/* Thumbnail Strip */}
           <div className="flex gap-4">
-            {product.images.map((img, idx) => (
+            {product.images.map((imgUrl, idx) => (
               <button
                 key={idx}
                 onClick={() => setActiveImageIdx(idx)}
-                className={`flex-grow aspect-[4/3] rounded-brand-md border-2 bg-white flex items-center justify-center text-center text-[8px] sm:text-[10px] font-bold text-brand-forest-green/50 hover:bg-brand-cream/50 transition-all ${
+                className={`w-20 aspect-[4/3] rounded-brand-md border-2 overflow-hidden bg-white hover:bg-brand-cream/50 transition-all ${
                   activeImageIdx === idx ? "border-brand-gold shadow-sm scale-95" : "border-brand-forest-green/10"
                 }`}
               >
-                Sudut #{idx + 1}
+                <img
+                  src={imgUrl}
+                  alt={`${product.name} thumbnail ${idx + 1}`}
+                  className="w-full h-full object-cover"
+                />
               </button>
             ))}
           </div>

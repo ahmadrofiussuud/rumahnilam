@@ -31,7 +31,7 @@ export default function RootLayout({
       >
         <div className="flex flex-col min-h-screen justify-between">
           <Navbar />
-          <main className="flex-grow pt-24">
+          <main className="flex-grow">
             {children}
           </main>
           <Footer />

@@ -40,9 +40,11 @@ export default function ProductCard({ product }: ProductCardProps) {
           </div>
 
           {/* Product Image */}
-          <div className="h-full w-full bg-brand-forest-green/5 flex items-center justify-center font-serif text-brand-forest-green/30 font-bold select-none text-center p-4">
-            {product.name} (Foto Produk)
-          </div>
+          <img
+            src={product.imageUrl}
+            alt={product.name}
+            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+          />
         </div>
 
         <CardHeader className="space-y-2.5">

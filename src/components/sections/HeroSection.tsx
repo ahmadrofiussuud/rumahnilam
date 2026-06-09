@@ -14,7 +14,7 @@ export default function HeroSection() {
   )}`;
 
   return (
-    <section className="relative min-h-[75vh] flex items-center bg-brand-cream overflow-hidden">
+    <section className="relative bg-brand-cream overflow-hidden pt-24 pb-16 sm:pt-28 sm:pb-20">
       
       {/* Decorative Botanical Leaf SVG Background Overlay */}
       <div className="absolute inset-0 z-0 pointer-events-none opacity-20">
