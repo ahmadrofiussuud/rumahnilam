@@ -59,16 +59,16 @@ export default function AboutUsPage() {
             </span>
           </div>
 
-          {/* Sponsor 2: PMW */}
+          {/* Sponsor 2: Brawijaya Startup Action */}
           <div className="px-8 py-5 border border-brand-gold/25 rounded-brand-lg bg-white flex flex-col items-center justify-center gap-1.5 min-w-[240px] shadow-sm">
             <div className="w-10 h-10 rounded-full bg-amber-50 border border-amber-100 flex items-center justify-center font-bold text-amber-700 text-xs">
-              PMW
+              BSA
             </div>
             <h4 className="font-serif text-sm font-bold text-brand-forest-green leading-snug">
-              Program Mahasiswa Wirausaha
+              Brawijaya Startup Action
             </h4>
             <span className="text-[9px] font-bold uppercase tracking-wider text-brand-gold">
-              Pendanaan Hibah UB
+              Akselerasi Inkubasi UB 2026
             </span>
           </div>
         </div>

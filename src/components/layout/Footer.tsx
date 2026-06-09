@@ -155,7 +155,7 @@ export default function Footer() {
           <div className="flex items-center gap-2">
             <Sprout className="w-4 h-4 text-brand-gold" />
             <p className="text-xs text-brand-cream/60 text-center sm:text-left">
-              &copy; 2025 Rumah Produksi Nilam. Didukung PMW Universitas Brawijaya.
+              &copy; 2025 Rumah Produksi Nilam. Didukung Brawijaya Startup Action 2026.
             </p>
           </div>
 

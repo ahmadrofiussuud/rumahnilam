@@ -16,7 +16,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Rumah Produksi Nilam | Premium Patchouli-derived Natural Products",
-  description: "Produk aromaterapi, kosmetik, dan sabun alami berbasis minyak nilam varietas Lhokseumawe — dibudidaya dan diolah di Malang. Didukung oleh PMW Universitas Brawijaya.",
+  description: "Produk aromaterapi, kosmetik, dan sabun alami berbasis minyak nilam varietas Lhokseumawe — dibudidaya dan diolah di Malang. Didukung oleh Brawijaya Startup Action 2026.",
 };
 
 export default function RootLayout({

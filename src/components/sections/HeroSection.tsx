@@ -36,7 +36,7 @@ export default function HeroSection() {
           {/* Floating University Support Badge */}
           <motion.div variants={fadeUp} className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-brand-gold/30 bg-white/60 text-brand-gold text-xs font-bold uppercase tracking-wider backdrop-blur-sm shadow-sm font-sans">
             <Sprout className="w-4 h-4" />
-            <span>Didukung PMW Universitas Brawijaya</span>
+            <span>Didukung Brawijaya Startup Action 2026</span>
           </motion.div>
 
           {/* Heading in Playfair Display serif */}
